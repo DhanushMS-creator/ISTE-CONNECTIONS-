@@ -99,32 +99,32 @@ function App() {
 
         <form className="entry-form" onSubmit={handleSubmit}>
           <label className="field">
-            <span>University seat number</span>
+            <span>TEAM NO</span>
             <div className="field__input">
               <span className="field__icon" aria-hidden="true">
                 ◔
               </span>
               <input
                 autoComplete="off"
-                name="usn"
+                name="TEAM NO"
                 onChange={updateField}
-                placeholder="e.g. 1AT21CS001"
+                placeholder="e.g. 01,02,03..."
                 value={form.usn}
               />
             </div>
           </label>
 
           <label className="field">
-            <span>Full name</span>
+            <span>TEAM NAME</span>
             <div className="field__input">
               <span className="field__icon" aria-hidden="true">
                 ☺
               </span>
               <input
                 autoComplete="name"
-                name="fullName"
+                name="TEAM NAME"
                 onChange={updateField}
-                placeholder="John Doe"
+                placeholder="Victory warriors"
                 value={form.fullName}
               />
             </div>
